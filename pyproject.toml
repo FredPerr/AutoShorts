@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "auto_shorts"
+version = "0.0.1"
+dependencies = [
+  "requests",
+  'importlib-metadata; python_version<"3.8"',
+]
+authors = [
+  { name="Frédéric Perron", email="frederic.perr@gmail.com" },
+]
+description = "Automatic Download, Edit and Reupload of Shorts on YouTube"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: Private Use Only",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/FredPerr/AutoShorts"
+"Bug Tracker" = "https://github.com/FredPerr/AutoShorts/issues"
