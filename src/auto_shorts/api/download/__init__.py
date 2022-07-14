@@ -35,11 +35,8 @@ def fetch_best(url, on_progress=None, on_complete=None, type='video'):
 
 
 
-
-
 def download(stream: Stream, output_folder: str, filename: str, **kwargs):
     """
-    
     raise: HTTPError if the download failed.
     return: Path where the video was saved.
     """
