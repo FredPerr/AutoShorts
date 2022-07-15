@@ -2,3 +2,5 @@ __pycache__
 venv
 dist/
 *.egg-info
+*.mp3
+*.mp4
