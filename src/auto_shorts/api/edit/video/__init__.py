@@ -8,11 +8,13 @@ from moviepy.video.VideoClip import TextClip
 
 DEFAULT_THEME_FONT = {
     "font": 'Courier',
-    "color": 'white',
+    "color": 'black',
     "bg_color": 'transparent',
-    "fontsize": 40,
+    "font_size": 32,
     "stroke_width": 1,
     "stroke_color": None,
+    'method': 'label',
+    'align': 'center',
 }
 
 
